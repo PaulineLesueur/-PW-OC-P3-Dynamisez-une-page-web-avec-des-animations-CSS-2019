@@ -42,3 +42,50 @@
     }
 }
 
+/*		Format desktop		*/
+@media screen and (min-width: 1080px) {
+
+	/*global*/
+	body {
+		font-size: 18px;
+	}
+
+    /*header*/
+    header {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+	#logo {
+
+        img {
+            width: auto;
+        }
+    }
+    
+    #container_menus {
+        display: flex;
+    	justify-content: space-around;
+    	flex-wrap: wrap;
+    	width: 75%;
+        margin: auto;
+        
+        aside {
+            width: 42%;
+        }
+    }
+
+    #prochainement {
+        width: 30%;
+        margin-top: 30px;
+        
+        &:hover {
+            animation: none;
+        }
+    }
+
+    /*footer*/
+	footer {
+		width: 99%;
+	}
+}

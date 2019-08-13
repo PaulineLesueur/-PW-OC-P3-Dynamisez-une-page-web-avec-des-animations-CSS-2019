@@ -393,6 +393,17 @@ aside:hover {
   animation: shake 1s infinite;
 }
 
+/*Menus*/
+#menus {
+  margin: 0 20px;
+  text-align: center;
+}
+#menus h1 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #4b4b4b;
+}
+
 /* ---------------------------------------- */
 /* == PROCHAINEMENT */
 /*---------------------------------------- */
@@ -487,6 +498,7 @@ footer {
     width: auto;
   }
 
+  /*menus*/
   #container_menus {
     display: flex;
     justify-content: space-around;
@@ -498,6 +510,17 @@ footer {
     width: 42%;
   }
 
+  /*Page menu*/
+  #menus {
+    width: 50%;
+    margin: auto;
+    padding: 30px 0 30px 0;
+  }
+  #menus h1 {
+    font-size: 26px;
+  }
+
+  /*prochainement*/
   #prochainement {
     width: 30%;
     margin-top: 30px;

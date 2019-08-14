@@ -13,8 +13,11 @@
 
     /*header*/
 	header {
-		height: 150px;
-		margin: 0;
+        height: 150px;
+        
+        p {
+            top: 130px;
+        }
 	}
     
     #logo {
@@ -52,7 +55,6 @@
 
     /*header*/
     header {
-        margin-bottom: 20px;
         text-align: center;
     }
     

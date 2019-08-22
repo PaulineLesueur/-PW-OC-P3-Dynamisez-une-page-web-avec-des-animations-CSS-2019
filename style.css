@@ -393,6 +393,9 @@ header p .fa-search {
 #logo {
   width: 90%;
 }
+#logo h1 {
+  display: none;
+}
 
 #search {
   width: 100%;
@@ -444,7 +447,7 @@ aside:hover {
   background-color: #579c87;
   border-radius: 10px;
 }
-#prochainement h1 {
+#prochainement h2 {
   padding: 0 3px;
   border-right: 2px solid #fdcb46;
   overflow: hidden;

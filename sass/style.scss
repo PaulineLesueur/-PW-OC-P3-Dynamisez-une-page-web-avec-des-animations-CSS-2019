@@ -56,7 +56,11 @@ header {
 }
 
 #logo {
-	width: 90%;
+    width: 90%;
+    
+    h1 {
+        display: none;
+    }
 }
 
 #search {
@@ -114,7 +118,7 @@ aside {
 	background-color: #579c87;
     border-radius: 10px;
     
-    h1 {
+    h2 {
         padding: 0 3px;
         border-right: 2px solid #fdcb46;
         overflow: hidden;
